@@ -42,20 +42,6 @@ In addition to using **WinAeroTweaker**, a batch file has been created to help y
 2. **Basic Optimization (Option 2)**: Disables unnecessary startup apps and services, clears temp files, and runs defragmentation on the C: drive.
 3. **Advanced Optimization (Option 3)**: Includes all actions from **Basic Optimization**, but with additional unnecessary services being disabled for more aggressive performance improvement.
 
-### How to Use the Batch File:
-
-1. **Run as Administrator**: Right-click on the batch file and select **Run as Administrator** to allow system modifications.
-2. **Choose an Option**:
-   - Type **1** to **revert all settings** to their previous state (Recovery).
-   - Type **2** for **Basic Optimization** (disable startup apps, clear temp files, and defrag).
-   - Type **3** for **Advanced Optimization** (more aggressive disabling of services).
-
-### Important Notes:
-- Ensure you have **Administrator privileges** to make changes to system settings.
-- Always **back up your system** before making any optimizations to prevent unintended issues.
-- **Recovery Folder**: The batch file creates a **recovery folder** with all current settings saved. You can use this to restore the previous system state if something goes wrong.
-
----
 
 ## Important Notes
 
