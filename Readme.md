@@ -44,9 +44,8 @@ In addition to using **WinAeroTweaker**, a batch file has been created to help y
 
 ### How to Use the Batch File:
 
-1. **Save the Batch File**: Download or create a `.bat` file (e.g., `optimization_tool.bat`).
-2. **Run as Administrator**: Right-click on the batch file and select **Run as Administrator** to allow system modifications.
-3. **Choose an Option**:
+1. **Run as Administrator**: Right-click on the batch file and select **Run as Administrator** to allow system modifications.
+2. **Choose an Option**:
    - Type **1** to **revert all settings** to their previous state (Recovery).
    - Type **2** for **Basic Optimization** (disable startup apps, clear temp files, and defrag).
    - Type **3** for **Advanced Optimization** (more aggressive disabling of services).
