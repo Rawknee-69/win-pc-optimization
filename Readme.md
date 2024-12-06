@@ -1,6 +1,8 @@
 # WinAeroTweaker Optimizations
 
-This guide will help you optimize your Windows PC using the WinAeroTweaker tool, with configurations tailored for both high-end and low-end PCs. The instructions below are intended for Windows 10 and above.
+This guide will help you optimize your Windows PC using the **WinAeroTweaker** tool, along with additional batch file options for more comprehensive optimizations, including a recovery option.
+
+The instructions below are intended for **Windows 10 and above**.
 
 ## Steps for Optimization
 
@@ -12,32 +14,58 @@ This guide will help you optimize your Windows PC using the WinAeroTweaker tool,
 
 ### 2. **Import Configuration Files**
 
-- After installation, open the WinAeroTweaker software.
+- After installation, open the **WinAeroTweaker** software.
 - Import the appropriate configuration file:
   - For **high-end PCs**, use the `high-end-pc.ini` configuration.
   - For **low-end PCs**, use the `low-end-pc.ini` configuration.
 
   **Note:**  
-  - The **low-end-pc.ini** provides more optimizations, but is recommended only if you're running an older PC with limited resources.  
-  - The **high-end-pc.ini** is tailored for modern, high-performance PCs. It provides optimizations that focus on performance without compromising the user experience.
+  - The **low-end-pc.ini** configuration provides more optimizations but is recommended only for older PCs with limited resources.  
+  - The **high-end-pc.ini** configuration is tailored for modern, high-performance PCs and aims to improve performance without compromising user experience.
 
 ### 3. **Apply the Settings**
 
-- Once you’ve imported the appropriate configuration, click the **Apply** button to save the changes.
+- Once you've imported the configuration, click the **Apply** button to save the changes.
 - Restart your PC to ensure all optimizations take effect.
 
 ### 4. **Experience Improvements**
 
 - After rebooting, you should notice significant performance improvements, especially in speed and resource usage.
 
-## Important Notes
+## Batch File for System Optimization
 
-- These optimizations are designed for **Windows 10** and higher.
-- Always back up your system before applying any optimizations, as some settings may affect system behavior.
-- Low end pc optimization turns off some security and windows updates and onedrive so if you guys use those just manually turn these settings off
+In addition to using **WinAeroTweaker**, a batch file has been created to help you **disable startup apps**, **clear temp files**, and **defragment** the C: drive. It also provides a **recovery option** to revert changes if necessary.
+
+### Available Options in the Batch File
+
+1. **Recovery Option (Option 1)**: Reverts all settings to their previous state by restoring backups of startup apps and services.
+2. **Basic Optimization (Option 2)**: Disables unnecessary startup apps and services, clears temp files, and runs defragmentation on the C: drive.
+3. **Advanced Optimization (Option 3)**: Includes all actions from **Basic Optimization**, but with additional unnecessary services being disabled for more aggressive performance improvement.
+
+### How to Use the Batch File:
+
+1. **Save the Batch File**: Download or create a `.bat` file (e.g., `optimization_tool.bat`).
+2. **Run as Administrator**: Right-click on the batch file and select **Run as Administrator** to allow system modifications.
+3. **Choose an Option**:
+   - Type **1** to **revert all settings** to their previous state (Recovery).
+   - Type **2** for **Basic Optimization** (disable startup apps, clear temp files, and defrag).
+   - Type **3** for **Advanced Optimization** (more aggressive disabling of services).
+
+### Important Notes:
+- Ensure you have **Administrator privileges** to make changes to system settings.
+- Always **back up your system** before making any optimizations to prevent unintended issues.
+- **Recovery Folder**: The batch file creates a **recovery folder** with all current settings saved. You can use this to restore the previous system state if something goes wrong.
 
 ---
 
-Thank you for using WinAeroTweaker to optimize your PC!
+## Important Notes
 
-For more details or issues, feel free to contact support or contact me on discord [discord](https://discord.com/users/778460273073848342).
+- These optimizations are designed for **Windows 10** and higher.
+- Always **back up your system** before applying any optimizations, as some settings may affect system behavior.
+- Low-end PC optimizations turn off certain services like security features, Windows updates, and OneDrive. If you use these features, be sure to manually turn them back on after applying the optimizations.
+
+---
+
+Thank you for using **WinAeroTweaker** to optimize your PC!
+
+For more details or support, feel free to contact us via Discord: [Discord Support](https://discord.com/users/778460273073848342).
